@@ -7,247 +7,53 @@
         <link rel="stylesheet" href="fontawesome/css/all.min.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
         <link rel="stylesheet" href="css/ucss.css">
+        <link rel="stylesheet" href="css/ucss-tip.css">
     </head>
     <body>
-        <div class="tm-container">
-            <div class="tm-row">
-                <div class="tm-left">
-                    <div class="tm-left-inner">
-                        <div class="tm-site-header"></div>
-                        <nav class="tm-site-nav">
-                            <ul class="tm-site-nav-ul">
-                                <li class="tm-page-nav-item">
-                                    <a class="tm-page-link" href=" 
-													#events"><i class="fas fa-newspaper tm-page-link-icon"></i><span>Events</span></a>
-                                </li>
-                                <li class="tm-page-nav-item">
-                                    <a class="tm-page-link" href=" 
-													#news"><i class="fas fa-qrcode tm-page-link-icon"></i><span>News</span></a>
-                                </li>
-                                <li class="tm-page-nav-item">
-                                    <a class="tm-page-link" href=" 
-													#about"><i class="fas fa-place-of-worship tm-page-link-icon"></i><span>About Us</span></a>
-                                </li>
-                                <li class="tm-page-nav-item">
-                                    <a class="tm-page-link" href=" 
-													#contact"><i class="fas fa-praying-hands tm-page-link-icon"></i><span>Contact Us</span></a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
+        <div id="outer-container">
+            <div id="left-nav">
+                <div class="vmenu">
+                    <span class="menu">Events</span>
                 </div>
-                <div class="tm-right">
-                    <main class="tm-main">
-                        <div id="events" class="tm-page-content">
-                            <nav class="tm-black-bg tm-drinks-nav">
-                                <ul>
-                                    <li>
-                                        <a href="#" class="tm-tab-link active" data-id="Recent">Recent</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="tm-tab-link" data-id="Upcoming">Upcoming</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="tm-tab-link" data-id="Veryold">Archived</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                            <div id="Recent" class="tm-tab-content">
-                                <div class="tm-list">
-                                    <div class="tm-list-item">
-                                        <img alt="Image" class="tm-list-item-img" src="img/NatashaMaryna.jpg">
-                                        <div class="tm-black-bg tm-list-item-text">
-                                            <h3 class="tm-list-item-name">
-                                                Vyshyvanka<span class="tm-list-item-price">...</span>
-                                            </h3>
-                                            <p class="tm-list-item-description">Triumph is the word that comes to the mind when it comes to describe the event.</p>
-                                        </div>
-                                    </div>
-                                    <div class="tm-list-item">
-                                        <img alt="Image" class="tm-list-item-img" src="img/xmas.png">
-                                        <div class="tm-black-bg tm-list-item-text">
-                                            <h3 class="tm-list-item-name">
-                                                Bazar Orthodox Church<span class="tm-list-item-price">...</span>
-                                            </h3>
-                                            <p class="tm-list-item-description">Selling Tasty Stuff...</p>
-                                        </div>
-                                    </div>
-                                    <div class="tm-list-item">
-                                        <img alt="Image" class="tm-list-item-img" src="img/back.jpg">
-                                        <div class="tm-black-bg tm-list-item-text">
-                                            <h3 class="tm-list-item-name">
-                                                BackPacks for Children<span class="tm-list-item-price">...</span>
-                                            </h3>
-                                            <p class="tm-list-item-description">Thank you Costco for Backpacks for our kids.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="Upcoming" class="tm-tab-content">
-                                <div class="tm-list">
-                                    <div class="tm-list-item">
-                                        <img alt="Image" class="tm-list-item-img" src="img/ternopil.jpg">
-                                        <div class="tm-black-bg tm-list-item-text">
-                                            <h3 class="tm-list-item-name">
-                                                VIP Ternopil<span class="tm-list-item-price">...</span>
-                                            </h3>
-                                            <p class="tm-list-item-description">Humor</p>
-                                        </div>
-                                    </div>
-                                    <div class="tm-list-item">
-                                        <img alt="Image" class="tm-list-item-img" src="img/nic.jpg">
-                                        <div class="tm-black-bg tm-list-item-text">
-                                            <h3 class="tm-list-item-name">
-                                                St Nicolas<span class="tm-list-item-price">...</span>
-                                            </h3>
-                                            <p class="tm-list-item-description">For Kids</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="Veryold" class="tm-tab-content">
-                                <div class="tm-list">
-                                    <div class="tm-list-item">
-                                        <img src="img/NatashaMaryna.jpg" alt="Image" class="tm-list-item-img">
-                                        <div class="tm-black-bg tm-list-item-text">
-                                            <h3 class="tm-list-item-name">
-                                                Nothing yet...<span class="tm-list-item-price">...</span>
-                                            </h3>
-                                            <p class="tm-list-item-description"></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="about" class="tm-page-content">
-                            <div class="tm-black-bg tm-mb-20 tm-about-box-1">
-                                <h2 class="tm-text-primary tm-about-header">About UCSS</h2>
-                                <div class="tm-list-item tm-list-item-2">
-                                    <img src="img/about-1.png" alt="Image" class="tm-list-item-img tm-list-item-img-big">
-                                    <div class="tm-list-item-text-2">
-                                        <p>Ukrainian Canadian Social Services - Ottawa Branch is a non-profit charitable organization serving the Ukrainian community in Ottawa. Guided by the needs of individuals and families of Ukrainian community, who experience language and cultural barriers. We provide a range of support services.</p>
-                                        <p>You can also share information about our services. Please tell your friends about us.</p>
-                                        <p>
-                                            Follow us on <a href="https://www.facebook.com/groups/3189837834631563">Facebook</a>
-                                        </p>
-                                        <img scr="img/facebook_logo.jpg">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tm-black-bg tm-mb-20 tm-about-box-2">
-                                <div class="tm-list-item tm-list-item-2">
-                                    <div class="tm-list-item-text-2">
-                                        <h2 class="tm-text-primary">How we began</h2>
-                                        <p>If you wish to support us, please donate. Thank you.</p>
-                                    </div>
-                                    <img src="img/about-2.png" alt="Image" class="tm-list-item-img tm-list-item-img-big tm-img-right">
-                                </div>
-                                <p></p>
-                            </div>
-                        </div>
-                        <div id="news" class="tm-page-content">
-                            <div class="tm-special-items">
-                                <div class="tm-black-bg tm-special-item">
-                                    <img src="img/donat-bg.jpg" alt="Donate">
-                                    <div class="tm-special-item-description">
-                                        <h2 class="tm-text-primary tm-special-item-title">Thank YOU UCSS - Подяка від Одеського Військового госпіталю</h2>
-                                        <p class="tm-special-item-text">ВИСЛОВЛЮЄМО НАЙЩИРІШУ ПОДЯКУ від усіх поранених бійців, медиків та волонтерів одеського Військово Медичного Клінічного Центру Південного Регіону (ВМКЦ ПР) - Отавському Осередку Української Канадської Суспільної Служби, зокрема голові Отавського осередку МАРИНІ ПОПОВИЧ за нещодавно надіслані нам 9 коробів різних медичних витратників- пристосувань для реанімації та оперблоку ,;тощо. Щодня ми різне необхідне комплектуємо та передаємо не тільки нашому шпиталю а й моб. шпиталям та підрозділам , діючим на різних гарячих ділянках фронту . Поранених зустрічаємо.../ відвідуємо .../ психологічно працюємо.../випроваджуємо ... Наразі "простими штуками" ми гарно забезпечені, а от цінні замінники до VAC апаратів , оптика до лапароскопічного приладу та інші "непрості штуки" ,:виявилися особливо необхідними і дуууже порадували лікарів. ВЕЛИКЕ ВАМ СПАСИБІ !! ДЯКУЄМО за ваші невтомні душі, серця , руки і значні кошти, за ДІЄВУ ЛЮБОВ до нашої Батьківщини ! РАЗОМ - МИ ПЕРЕМОЖЕМО І ВІДБУДУЄМО НАШУ УКРАЇНУ! РАЗОМ МИ - СИЛА!</p>
-                                        <h2 class="tm-text-primary tm-special-item-title">Thank YOU UCSS</h2>
-                                        <p class="tm-special-item-text">Gratitude is here...</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="contact" class="tm-page-content">
-                            <div class="tm-black-bg tm-contact-text-container">
-                                <h2 class="tm-text-primary">Contact UCSS</h2>
-                                <p>Ukrainian Canadian Social Services - Ottawa Branch</p>
-                            </div>
-                            <div class="tm-black-bg tm-contact-form-container tm-align-right">
-                                <form action="" method="POST" id="contact-form">
-                                    <div class="tm-form-group">
-                                        <input type="text" name="name" class="tm-form-control" placeholder="Name" required="">
-                                    </div>
-                                    <div class="tm-form-group">
-                                        <input type="email" name="email" class="tm-form-control" placeholder="Email" required="">
-                                    </div>
-                                    <div class="tm-form-group tm-mb-30">
-                                        <textarea rows="6" name="message" class="tm-form-control" placeholder="Message" required=""></textarea>
-                                    </div>
-                                    <div>
-                                        <button type="submit" class="tm-btn-primary tm-align-right">
-                    Submit
-                  </button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </main>
+                <div class="vmenu">
+                    <span class="menu">News</span>
+                </div>
+                <div class="vmenu">
+                    <span class="menu">About Us</span>
+                </div>
+                <div class="vmenu">
+                    <span class="menu">Contact Us</span>
                 </div>
             </div>
+            <div id="content-container">
+                <div class="wrapper">
+                    <div class="box a">
+                        <div class="ucssfull">
+		  		Ukrianian Canadian Social Services
+		  	</div>
+                    </div>
+                    <div class="box b">
+                        <div>
+                            <div class="charitable">Charitable Orgainzation</div>
+                            <div class="ucss">UCSS</div>
+                            <div class="branch">Ottawa Branch</div>
+                        </div>
+                    </div>
+                    <div class="box c">
+                        <div>
+                            <img src="img/sunflower.png">
+                        </div>
+                    </div>
+                    <div class="box d">
+                        <div class="box f">
+                            <div>
+                                <img src="img/wehelp.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="clear: both"></div>
         </div>
-        <script src="js/jquery-3.4.1.min.js"></script><script>
-
-     
-
-    function openTab(evt, id) {
-      $('.tm-tab-content').hide();
-      $('#' + id).show();
-      $('.tm-tab-link').removeClass('active');
-      $(evt.currentTarget).addClass('active');
-    }    
-
-    function initPage() {
-      let pageId = location.hash;
-
-      if(pageId) {
-        highlightMenu($(`.tm-page-link[href^="${pageId}"]`)); 
-        showPage($(pageId));
-      }
-      else {
-        pageId = $('.tm-page-link.active').attr('href');
-        showPage($(pageId));
-      }
-    }
-
-    function highlightMenu(menuItem) {
-      $('.tm-page-link').removeClass('active');
-      menuItem.addClass('active');
-    }
-
-    function showPage(page) {
-      $('.tm-page-content').hide();
-      page.show();
-    }
-
-    $(document).ready(function(){
-
-      /***************** Pages *****************/
-
-      initPage();
-
-      $('.tm-page-link').click(function(event) {
-        
-        if(window.innerWidth > 991) {
-          event.preventDefault();
-        }
-
-        highlightMenu($(event.currentTarget));
-        showPage($(event.currentTarget.hash));
-      });
-
-      
-      /***************** Tabs *******************/
-
-      $('.tm-tab-link').on('click', e => {
-        e.preventDefault(); 
-        openTab(e, $(e.target).data('id'));
-      });
-
-      $('.tm-tab-link.active').click(); // Open default tab
-      
-    });
-      
-  </script>
     </body>
 </html>
