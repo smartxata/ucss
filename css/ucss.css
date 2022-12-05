@@ -21,10 +21,9 @@ body {
     font-size: 18px;
     overflow-x: hidden;
     background-color: #FF0;
-	/*background-image: url("../img/ucss-temp-bg.jpg");*/
-	background-image: url("../img/ucss-temp-bg.jpg");
-	background-repeat: repeat-x;
-	/*background-size: 100%;*/	
+	background-image: url("../img/ucss-bg.png");
+	background-repeat: repeat;
+	
 }
  .ucss {
 	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
